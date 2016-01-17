@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+    <div class="container well well-lg">
+        <table class="table table-striped table-hover table-condensed table-bordered">
+            <thead>
+                <th>First</th>
+                <th>Last</th>
+                <th>City</th>
+                <th>State</th>
+            </thead>
+            <tr>
+                <td class="col-sm-2">Jim</td>
+                <td class="col-sm-2">Duffy</td>
+                <td class="col-sm-2">Raleigh</td>
+                <td class="col-sm-2">NC</td>
+                <td>
+                    <a href="#" class="btn btn-primary btn-sm btn-block">
+                        <span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Edit</a>
+                </td>
+                <td>
+                    <a href="#" class="btn btn-danger btn-sm btn-block">
+                        <span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Delete</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-sm-2">Rob</td>
+                <td class="col-sm-2">Zelt</td>
+                <td class="col-sm-2">Raleigh</td>
+                <td class="col-sm-2">NC</td>
+                <td>
+                    <a href="#" class="btn btn-primary btn-sm btn-block">
+                        <span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Edit
+                    </a>
+                </td>
+                <td>
+                    <a href="#" class="btn btn-danger btn-sm btn-block">
+                        <span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Delete
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-sm-2">Greg</td>
+                <td class="col-sm-2">Pugh</td>
+                <td class="col-sm-2">Moonville</td>
+                <td class="col-sm-2">NC</td>
+                <td>
+                    <a href="#" class="btn btn-primary btn-sm btn-block">
+                        <span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;Edit
+                    </a>
+                </td>
+                <td>
+                    <a href="#" class="btn btn-danger btn-sm btn-block">
+                        <span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Delete
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="container">
+        <form class="form-horizontal" role="form">
+            <div class="row clearfix">
+                <h3 class="float-l">Duffy, Jim</h3>
+            </div>
+            <div class="row">
+                <div class="well well-sm">
+                    <div class="clearfix">
+
+                        <!-- Photo -->
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <img src="JimDuffy_300x300.jpg" class="img-rounded img-responsive">
+                                    </div>
+                                    <div class="panel-footer">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <button class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-plus"></i>&nbsp;Add Photo</button>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <button class="btn btn-default btn-xs"><i class="glyphicon glyphicon-trash"></i>&nbsp;Remove</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Photo -->
+
+
+                        <!-- Employee Name -->
+                        <div class="col-sm-3">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title"><strong>Employee Name</strong></h3>
+                                </div>
+                                <div class="panel-body">
+                                    <div class="form-group">
+                                        <label for="LastName" class="col-sm-3 control-label">Last</label>
+                                        <div class="col-sm-9">
+                                            <input id="LastName" name="LastName" placeholder="Last Name" type="text" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="FirstName" class="col-sm-3 control-label">First</label>
+                                        <div class="col-sm-9">
+                                            <input id="FirstName" name="FirstName" placeholder="First Name" type="text" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="MiddleName" class="col-sm-3 control-label">Middle</label>
+                                        <div class="col-sm-9">
+                                            <input id="MiddleName" name="MiddleName" placeholder="Middle Name" type="text" class="form-control" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.Employee Name-->
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <button type="button" class="btn btn-default">Default</button>
+
+        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+        <button type="button" class="btn btn-primary">Primary</button>
+
+        <!-- Indicates a successful or positive action -->
+        <button type="button" class="btn btn-success">Success</button>
+
+        <!-- Contextual button for informational alert messages -->
+        <button type="button" class="btn btn-info">Info</button>
+
+        <!-- Indicates caution should be taken with this action -->
+        <button type="button" class="btn btn-warning">Warning</button>
+
+        <!-- Indicates a dangerous or potentially negative action -->
+        <button type="button" class="btn btn-danger">Danger</button>
+
+        <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+        <button type="button" class="btn btn-link">Link</button>
+
+
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
